@@ -1,0 +1,151 @@
+{
+  "tabela1": {
+    "A": {
+      "P": 0,
+      "N": 0,
+      "Z": 0,
+      "estavel_nyquist": true,
+      "MG": 6.0,
+      "MG_dB": 15.6,
+      "w_pc": 3.317,
+      "MF": 90.0,
+      "w_gc": 1.0,
+      "polinomio_mf": [
+        1.0,
+        6.0,
+        11.0,
+        16.0
+      ],
+      "routh_primeira_coluna": [
+        1.0,
+        6.0,
+        8.333,
+        16.0
+      ],
+      "trocas_routh": 0,
+      "polos_mf": [
+        "(-4.31+0j)",
+        "(-0.85+1.73j)",
+        "(-0.85-1.73j)"
+      ]
+    },
+    "B": {
+      "P": 1,
+      "N": -1,
+      "Z": 0,
+      "estavel_nyquist": true,
+      "MG": 0.25,
+      "MG_dB": -12.0,
+      "w_pc": 0.0,
+      "MF": 100.3,
+      "w_gc": 8.875,
+      "polinomio_mf": [
+        1.0,
+        14.0,
+        15.0
+      ],
+      "routh_primeira_coluna": [
+        1.0,
+        14.0,
+        15.0
+      ],
+      "trocas_routh": 0,
+      "polos_mf": [
+        "(-12.83+0j)",
+        "(-1.17+0j)"
+      ]
+    },
+    "C": {
+      "P": 0,
+      "N": 0,
+      "Z": 0,
+      "estavel_nyquist": true,
+      "MG": 1.714,
+      "MG_dB": 4.7,
+      "w_pc": 1.558,
+      "MF": "inf",
+      "w_gc": "inf",
+      "polinomio_mf": [
+        1.0,
+        6.0,
+        6.0,
+        11.0
+      ],
+      "routh_primeira_coluna": [
+        1.0,
+        6.0,
+        4.167,
+        11.0
+      ],
+      "trocas_routh": 0,
+      "polos_mf": [
+        "(-5.26+0j)",
+        "(-0.37+1.4j)",
+        "(-0.37-1.4j)"
+      ]
+    },
+    "D": {
+      "P": 0,
+      "N": 0,
+      "Z": 0,
+      "estavel_nyquist": true,
+      "MG": 1.879,
+      "MG_dB": 5.5,
+      "w_pc": 2.272,
+      "MF": 55.1,
+      "w_gc": 1.331,
+      "trocas_routh_pade1": 0,
+      "MF_sem_atraso": 93.27,
+      "w_gc_sem_atraso": 1.331,
+      "tau_crit_sem_atraso": 1.223
+    }
+  },
+  "tabela2": {
+    "Nyquist (exato)": {
+      "ordem": null,
+      "Kcrit": 3.758,
+      "erro_%": 0.0
+    },
+    "Routh + Padé 1": {
+      "ordem": 3,
+      "Kcrit": 4.0909,
+      "erro_%": 8.86
+    },
+    "Lugar das Raízes + Padé 1": {
+      "ordem": 3,
+      "Kcrit": 4.0909,
+      "erro_%": 8.86
+    },
+    "Routh + Padé 2": {
+      "ordem": 4,
+      "Kcrit": 3.7645,
+      "erro_%": 0.17
+    },
+    "Lugar das Raízes + Padé 2": {
+      "ordem": 4,
+      "Kcrit": 3.7645,
+      "erro_%": 0.17
+    }
+  },
+  "tinkercad": {
+    "planta_den": [
+      0.01,
+      0.21000000000000002,
+      1.0
+    ],
+    "polos_planta": [
+      "(-13.7+0j)",
+      "(-7.3+0j)"
+    ],
+    "N": 0,
+    "P": 0,
+    "Z": 0,
+    "MF": 89.64,
+    "w_gc": 9.527,
+    "MG": "inf",
+    "tau_crit_s": 0.1642,
+    "N_crit_T10ms": 16.4,
+    "tau_crit_observado_s": 0.15,
+    "diferenca_%": -8.7
+  }
+}

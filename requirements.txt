@@ -1,0 +1,4 @@
+numpy>=1.26
+matplotlib>=3.8
+control>=0.10   # apenas para validação cruzada nos testes e no benchmark
+pytest>=8
