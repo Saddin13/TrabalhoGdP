@@ -1,0 +1,60 @@
+{
+  "maquina": {
+    "processador": "Intel(R) Xeon(R) Processor @ 2.10GHz",
+    "sistema": "Linux-6.18.44-fc-v726-x86_64-with-glibc2.39",
+    "python": "3.13.18",
+    "numpy": "2.5.3",
+    "python-control": "0.10.2",
+    "repeticoes": 100
+  },
+  "tabela": {
+    "5": {
+      "tempo_ms": {
+        "Nyquist": 0.601,
+        "Routh-Hurwitz": 0.018,
+        "Lugar das Raizes": 100.913,
+        "Bode": 0.153
+      },
+      "erro_rel": {
+        "Nyquist": 3.78e-16,
+        "Routh-Hurwitz": 3.78e-16,
+        "Lugar das Raizes": 6.3e-16,
+        "Bode": 0.0
+      },
+      "erro_horner": 6.38e-16,
+      "veredictos_estavel": true
+    },
+    "10": {
+      "tempo_ms": {
+        "Nyquist": 1.066,
+        "Routh-Hurwitz": 0.04,
+        "Lugar das Raizes": 173.053,
+        "Bode": 0.164
+      },
+      "erro_rel": {
+        "Nyquist": 0.0,
+        "Routh-Hurwitz": 1.81e-16,
+        "Lugar das Raizes": 4.89e-15,
+        "Bode": 0.0
+      },
+      "erro_horner": 2.82e-15,
+      "veredictos_estavel": true
+    },
+    "20": {
+      "tempo_ms": {
+        "Nyquist": 0.982,
+        "Routh-Hurwitz": 0.041,
+        "Lugar das Raizes": 542.913,
+        "Bode": 0.2
+      },
+      "erro_rel": {
+        "Nyquist": 3.94e-16,
+        "Routh-Hurwitz": 1.05e-15,
+        "Lugar das Raizes": 1.31e-15,
+        "Bode": 0.0
+      },
+      "erro_horner": 3.93e-14,
+      "veredictos_estavel": true
+    }
+  }
+}
